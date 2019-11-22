@@ -1,6 +1,7 @@
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+    background-color: white;
   }
   th, td {
     padding: 5px;
@@ -10,13 +11,14 @@ table, th, td {
   }
 
   body {
-      background-image: url("http://www.amplatitude.com.br/timthumb.php?src=images/artigos/empresa-sustentavel-2efcd.jpg&w=1068&h=640&a=t");
+      background-color: green;
+      background-image: url("http://www.equilibrioemvida.com/wp-content/uploads/2017/05/trabalho-temporario.jpg");
       background-repeat: no-repeat;
       background-position: center;
-      margin-right: 200px;
+      margin: 0px;
       background-attachment: fixed;
   }
-
+  
   .ranking{
     background-color: #f44336;
     color: white;
@@ -39,18 +41,13 @@ table, th, td {
   
   /* Style the header */
   header {
-    background-color: #666;
-    padding: 30px;
+    background-color: green;
+    padding: 0.5px;
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
     color: white;
   }
   
-  /* Container for flexboxes */
-  section {
-    display: -webkit-flex;
-    display: flex;
-  }
   
   /* Style the navigation menu */
   nav {
@@ -76,10 +73,13 @@ table, th, td {
     padding: 10px;
   }
   
-  /* Style the footer */
   footer {
-    background-color: #777;
-    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    padding: 25px;
     text-align: center;
     color: white;
   }
@@ -91,4 +91,3 @@ table, th, td {
       flex-direction: column;
     }
   }
-  
