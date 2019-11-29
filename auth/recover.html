@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/geral.css">
+    <title>Recuperação de Senha</title>
+</head>
+
+<body>
+    <div class="row">
+        <div id="main" class="offset-s3 col s6 hoverable">
+            <nav id="nav">
+                <div class="nav-wrapper light-blue darken-4">
+                    <p id="nav-text" class="center-align flow-text truncate">Insira um e-mail de recuperação</p>
+                </div>
+            </nav>
+
+            <div class="offset-s2 col s8">
+                <form action="https://fiscalgov.herokuapp.com/recover" method="POST">
+                    <div class="input-field col s12">
+                        <span>Email:</span>
+                        <input id="email" name="email" value="" type="text" class="validate">
+                    </div>
+                    <button type="submit" class="btn right light-blue darken-4">Enviar</button>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>

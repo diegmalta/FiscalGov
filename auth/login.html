@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/geral.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="row">
+        <div id="main" class="offset-s3 col s6 hoverable">
+            <nav id="nav">
+                <div class="nav-wrapper light-blue darken-4">
+                    <p id="nav-text" class="center-align flow-text">Login</p>
+                </div>
+            </nav>
+
+            <div class="offset-s2 col s8">
+                <form action="https://fiscalgov.herokuapp.com/login" method="POST">
+                    <div class="input-field col s12">
+                        <span for="cnpj">Email:</span>
+                        <input id="email" name="email" value="" type="text" class="validate">
+                    </div>
+                    <div class="input-field col s12">
+                        <span for="cnpj">Senha:</span>
+                        <input id="senha" name="senha" value="" type="password" class="validate">
+                    </div>
+
+                    <a href="./recover.html" class="right col s12">Esqueceu sua senha?</a>
+
+                    <div class="col s12">
+                        <button type="submit" class="btn right light-blue darken-4">Entrar</button>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="col s12" style="margin-top: 8%">
+                        <a href="./cadastro.html" class="btn center light-blue darken-4 col s12"><span class="truncate">Cadastrar-se</span>></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
