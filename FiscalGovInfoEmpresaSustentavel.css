@@ -1,0 +1,257 @@
+a:link, a:visited{
+  color: black;
+}
+
+a{
+  text-decoration: underline;
+}
+
+a:hover{
+  background-color: white;
+}
+
+ /* Style the navigation menu */
+ nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  w
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+
+table{
+  width: 245px;
+  box-shadow: 2px 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
+}
+
+body {
+    background-color: green;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+.ranking{
+  background-color: #cccccc;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 2px 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: green;
+  padding: 0.5px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+footer {
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  float: left;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .navbar {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: green;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 14px 4px rgba(0,0,0,0.4);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+h4{
+  background: #cccccc;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
+}
+
+#area-principal{
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#area-direita{
+  float: right;
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+#area-esquerda{
+  float: left;
+  width: 20%;
+  padding-right: 50px;
+}
+
+body, html {
+  background-color: green;
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("imagens/floresta1.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("imagens/imagem3.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("imagens/stonks.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: transparent;
+  color: black;
+  font-size: 3em;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+p{
+  text-align: center;
+  color: black;
+  font-size: 1.4em;
+}

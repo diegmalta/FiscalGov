@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>FiscalGov</title>
+        <link rel="stylesheet" type="text/css" href="FAQ.css" media="screen"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    
+    <body>
+
+            
+        <header>
+                <a href="FiscalGov.html">
+                    <img src="http://3.bp.blogspot.com/-qt11p0Qk5Vc/UfiHwePUMDI/AAAAAAAALb8/L7zNkJE1tPI/s1600/arvore+(1).png" alt="arvorezinha" style="width:100px;height:100px;border:0;float:left;">
+                </a>   
+                    <h1>FiscalGov</h1>
+        </header>
+        
+        <nav>
+            <div>
+                <div class="navbar">
+                    <a href="FiscalGov.html"><i class="fa fa-fw fa-home"></i> Home</a>
+                    <div class="dropdown">
+                    <button class="dropbtn"><i class='fas fa-building'></i> Empresas
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#"><i class="material-icons">format_list_numbered</i> Ranking</a>
+                    </div>
+                </div>
+                <a href="FiscalGovInfoEmpresaSustentavel.html"><i class='fas fa-chart-line'></i> Como ter uma empresa mais sustentável</a>
+                <a href="#"><i class='fas fa-question'></i> FAQ</a>
+                <a href="FiscalGov.html"><i class="material-icons" style="font-size:15px">exit_to_app</i> Logout</a>
+                <a href="#"><i class='fas fa-clipboard-list'></i> Conta</a>
+            </div>
+        </nav>
+ 
+ 
+
+        <button type="button" class="collapsible">Quem somos?</button>
+            <div class="content">
+                <p>O FiscalGov é um site governamental que tem por objetivo, informar ao 
+                    público geral sobre empresas de suas condições de trabalho e seu desenvolvimento saudável e sustentável para o 
+                    Brasil e, consequentemente, para o mundo.</p>
+            </div>
+
+        <button type="button" class="collapsible">O que fazemos?</button>
+            <div class="content">
+                <p>Nós temos por objetivo melhorar a qualidade do trabalho e estimular o crescimento sustentável. As empresas são ranqueadas
+                    de acordo com certos critérios, e quanto melhor forem estes critérios, mais visibilidade estas terão, atraindo consumidores
+                    e consequentemente, investimentos. Fazemos isso através de fiscalizações marcadas pelas empresas por meio deste site, 
+                    e então, recolhemos os dados obtidos na fiscalização para colocá-los a mostra em forma de pontuação nos critérios de 
+                    ranqueamento.
+                </p>
+            </div>
+
+        <button type="button" class="collapsible">Como funciona o Ranking?</button>
+            <div class="content">
+                <p>Ranqueamos em ordem, as empresas que têm o melhor desempenho de sustentabilidade e relação com os empregados. 
+                Elas são avaliadas em cinco parâmetros, tais como: nível de emissão de produtos nocivos ao meio ambiente, 
+                movimentação de capital, qualidade de vida dos seus empregados(remuneração, horas trabalhadas, etc), nível de reciclagem e 
+                gastos de água e energia acima do nível recomendado calculado para aquela empresa.</p>
+            </div>
+
+        <button type="button" class="collapsible">Quem pode se cadastrar no site?</button>
+            <div class="content">
+                <p>Somente é necessário possuir um CNPJ. Além disto, somente é preciso inserir o nome da empresa,
+                    email, endereço e criar uma senha no cadastro!
+                </p>
+            </div>
+
+        <button type="button" class="collapsible">Como marcar uma fiscalização no site?</button>
+            <div class="content">
+                <p>Para isto, é necessário estar logado primeiro, para habilitar esta opção, pois somente empresas cadastradas podem marcar
+                    fiscalização. A opção estará disponível na barra de menu no topo do site, dentro da opção: Empresas.
+                </p>
+            </div>
+
+        <button type="button" class="collapsible">Como tirar 10 no trabalho de Organização da Informação?</button>
+            <div class="content">
+                <p>Não sabemos, esperamos que isso se concretize futuramente, através do esforço colocado na construção deste site e muita fé.</p>
+            </div>
+
+            <script>
+                    var coll = document.getElementsByClassName("collapsible");
+                    var i;
+                    
+                    for (i = 0; i < coll.length; i++) {
+                      coll[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.maxHeight){
+                          content.style.maxHeight = null;
+                        } else {
+                          content.style.maxHeight = content.scrollHeight + "px";
+                        } 
+                      });
+                    }
+            </script>
+
+    </body>
+
+</html>
+        
